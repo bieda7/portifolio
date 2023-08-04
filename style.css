@@ -46,7 +46,7 @@ body * {
 }
 /*essas são as configurações dela */
 #profile img {
-    background: blue border-radius:50%;
+    background: blue;
     width: 112px;
     margin: auto;
 }
@@ -95,7 +95,7 @@ body * {
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid var(--stroke-color);
     background: var(--surface-color);
-    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
     border-radius: 9999px;
 }
 
