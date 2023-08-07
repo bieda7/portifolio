@@ -11,7 +11,7 @@
     --surface-color: rgb(255, 255, 255, 0.05);
     --surface-color-hover:  rgb(0, 0, 0, 0.5);
     --highlight-color: rgb(255, 255, 255, 0.2);
-    --switch-bg-url: url(./assets/moon-stars.svg);
+    --switch-bg-url: url(./assets/MoonStars.svg);
 }
  /*essas são as configurações de estilização do tema Light: claro*/
 .light {

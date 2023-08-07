@@ -1,6 +1,14 @@
 function toggleMode() {
    const html = document.documentElement
+   html.classList.toggle("light")
 
+   
+   const img = document.querySelector("#profile img")
 
-   html.classList.toggle('light')
+   
+   if (html.classList.contains('light')) {
+      img.querySelector("src", "./assets/euAvatar-light.png")
+   } else {
+      img.querySelector("src", "./assets/euAvatar.png")
+   }
 }
